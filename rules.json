@@ -1,13 +1,4 @@
 {
-  
-  // Firebase Security Rules for Delulu Media App
-  // ------------------------------------------------
-  // These rules lock down the database by default.
-  // - Global read/write is disabled (nobody can access the root).
-  // - Each user can ONLY read and write to their own node under /users/{uid}.
-  // - Access requires authentication (auth != null).
-  // This ensures strong isolation: no user can ever read or modify another user’s data.
-
   "rules": {
     ".read": false,
     ".write": false,
